@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.a99namesofallah">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/saa"
+        android:label="99 Names of Allah"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="আল্লাহর নাম ⇄ 99 Names"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Main21Activity"
+            android:label="আল্লাহর নাম - Names of Allah"
+            android:parentActivityName=".Main2Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Main22Activity"
+            android:label="@string/title_activity_main22"
+            android:parentActivityName=".Main2Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name1Activity"
+            android:label="Ar-Rahman"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name2Activity"
+            android:label="Ar-Raheem"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name3Activity"
+            android:label="Al-Malik"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name4Activity"
+            android:label="Al-Quddus"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name5Activity"
+            android:label="As-Salam"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name6Activity"
+            android:label="Al-Mu’min"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name7Activity"
+            android:label="Al-Muhaymin"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name8Activity"
+            android:label="Al-Aziz"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name9Activity"
+            android:label="Al-Jabbar"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name10Activity"
+            android:label="Al-Mutakabbir"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name11Activity"
+            android:label="Al-Khaaliq"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name12Activity"
+            android:label="Al-Baari"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name13Activity"
+            android:label="Al-Musawwir"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name14Activity"
+            android:label="Al-Ghaffaar"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name15Activity"
+            android:label="Al-Qahhaar"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name16Activity"
+            android:label="Al-Wahhab"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name17Activity"
+            android:label="Ar-Razzaq"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name18Activity"
+            android:label="Al-Fattah"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name19Activity"
+            android:label="Al-Alim"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name20Activity"
+            android:label="Al-Qaabid"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name21Activity"
+            android:label="Al-Baasit"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name22Activity"
+            android:label="Al-Khaafid"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name23Activity"
+            android:label="Ar-Rafi"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name24Activity"
+            android:label="Al-Mu’izz"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name25Activity"
+            android:label="Al-Muzil"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name26Activity"
+            android:label="As-Sami&apos;"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name27Activity"
+            android:label="Al-Baseer"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name28Activity"
+            android:label="Al-Hakam"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name29Activity"
+            android:label="Al-Adl"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name30Activity"
+            android:label="Al-Lateef"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name31Activity"
+            android:label="Al-Khabeer"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name32Activity"
+            android:label="Al-Haleem"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name33Activity"
+            android:label="Al-Azeem"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name34Activity"
+            android:label="Al-Ghafoor"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name35Activity"
+            android:label="Ash-Shakoor"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name36Activity"
+            android:label="Al-Aliyy"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name37Activity"
+            android:label="Al-Kabeer"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name38Activity"
+            android:label="Al-Hafiz"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name39Activity"
+            android:label="Al-Muqeet"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name40Activity"
+            android:label="Al-Haseeb"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name41Activity"
+            android:label="Al-Jaleel"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name42Activity"
+            android:label="Al-Kareem"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name43Activity"
+            android:label="Ar-Raqeeb"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name44Activity"
+            android:label="Al-Mujeeb"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name45Activity"
+            android:label="Al-Waasi’"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name46Activity"
+            android:label="Al-Hakeem"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name47Activity"
+            android:label="Al-Wadud"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name48Activity"
+            android:label="Al-Majeed"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name49Activity"
+            android:label="Al-Ba’ith"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name50Activity"
+            android:label="Ash-Shaheed"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name51Activity"
+            android:label="Al-Haqq"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name53Activity"
+            android:label="Al-Qawwiyy"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name54Activity"
+            android:label="Al-Mateen"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name55Activity"
+            android:label="Al-Waliyy"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name56Activity"
+            android:label="Al-Hameed"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name57Activity"
+            android:label="Al-Muhsee"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name58Activity"
+            android:label="Al-Mubdi"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name59Activity"
+            android:label="Al-Mueed"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name60Activity"
+            android:label="Al-Muhyi"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name61Activity"
+            android:label="Al-Mumeet"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name52Activity"
+            android:label="Al-Wakeel"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name62Activity"
+            android:label="Al-Hayy"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name63Activity"
+            android:label="Al-Qayyoom"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name64Activity"
+            android:label="Al-Waajid"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name65Activity"
+            android:label="Al-Maajid"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name66Activity"
+            android:label="Al-Waahid"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name67Activity"
+            android:label="Al-Ahad"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name68Activity"
+            android:label="As-Samad"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name69Activity"
+            android:label="Al-Qaadir"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name70Activity"
+            android:label="Al-Muqtadir"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name71Activity"
+            android:label="Al-Muqaddim"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name72Activity"
+            android:label="Al-Mu’akhkhir"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name73Activity"
+            android:label="Al-Awwal"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name74Activity"
+            android:label="Al-Akhir"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name75Activity"
+            android:label="Az-Zaahir"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name76Activity"
+            android:label="Al-Baatin"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name77Activity"
+            android:label="Al-Waali"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name78Activity"
+            android:label="Al-Muta’ali"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name79Activity"
+            android:label="Al-Barr"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name80Activity"
+            android:label="At-Tawwaab"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name81Activity"
+            android:label="Al-Muntaqim"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name82Activity"
+            android:label="Al-Afuww"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name83Activity"
+            android:label="Ar-Ra’oof"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name84Activity"
+            android:label="Maalik-ul-Mulk"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name85Activity"
+            android:label="Zul-Jalaali-wal-Ikram"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name86Activity"
+            android:label="Al-Muqsit"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name87Activity"
+            android:label="Al-Jaami’"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name88Activity"
+            android:label="Al-Ghaniyy"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name89Activity"
+            android:label="Al-Mughni"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name90Activity"
+            android:label="Al-Maani’"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name91Activity"
+            android:label="Ad-Daarr"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name92Activity"
+            android:label="An-Naafi’"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name93Activity"
+            android:label="An-Noor"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name94Activity"
+            android:label="Al-Haadi"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name95Activity"
+            android:label="Al-Badi’"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name96Activity"
+            android:label="Al-Baaqi"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name98Activity"
+            android:label="Ar-Rasheed"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name97Activity"
+            android:label="Al-Waaris"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".name99Activity"
+            android:label="As-Saboor"
+            android:parentActivityName=".Main21Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PhotoActivity"
+            android:label="Gallery"
+            android:parentActivityName=".Main2Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="About"
+            android:parentActivityName=".Main2Activity"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>
